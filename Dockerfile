@@ -1,4 +1,4 @@
-FROM yugeshdocker1/docker-splunk-light:latest
+FROM ttg-eam/docker-splunk:7.0.0
 MAINTAINER Yugesh Avadhanula <yugesh.a@tcs.com>
 
 ADD docker.xml ${SPLUNK_BACKUP_DEFAULT_ETC}/etc/apps/search/local/data/ui/views/
